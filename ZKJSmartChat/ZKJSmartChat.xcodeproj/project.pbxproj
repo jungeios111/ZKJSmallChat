@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B45D5E41D4EE146007C3EE1 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5CE1D4EE146007C3EE1 /* MASCompositeConstraint.m */; };
+		7B45D5E51D4EE146007C3EE1 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5D11D4EE146007C3EE1 /* MASConstraint.m */; };
+		7B45D5E61D4EE146007C3EE1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5D31D4EE146007C3EE1 /* MASConstraintMaker.m */; };
+		7B45D5E71D4EE146007C3EE1 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5D51D4EE146007C3EE1 /* MASLayoutConstraint.m */; };
+		7B45D5E81D4EE146007C3EE1 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5D91D4EE146007C3EE1 /* MASViewAttribute.m */; };
+		7B45D5E91D4EE146007C3EE1 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5DB1D4EE146007C3EE1 /* MASViewConstraint.m */; };
+		7B45D5EA1D4EE146007C3EE1 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5DD1D4EE146007C3EE1 /* NSArray+MASAdditions.m */; };
+		7B45D5EB1D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5E01D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		7B45D5EC1D4EE146007C3EE1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B45D5E21D4EE146007C3EE1 /* View+MASAdditions.m */; };
+		7BFDBC2C1D40B39C00682014 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDBC2B1D40B39C00682014 /* main.m */; };
+		7BFDBC2F1D40B39C00682014 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDBC2E1D40B39C00682014 /* AppDelegate.m */; };
+		7BFDBC351D40B39C00682014 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDBC331D40B39C00682014 /* Main.storyboard */; };
+		7BFDBC371D40B39C00682014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDBC361D40B39C00682014 /* Assets.xcassets */; };
+		7BFDBC3A1D40B39C00682014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDBC381D40B39C00682014 /* LaunchScreen.storyboard */; };
+		7BFDBC431D40B3DF00682014 /* ZKJChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDBC421D40B3DF00682014 /* ZKJChatVC.m */; };
+		7BFDBC461D40B42200682014 /* ZKJChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDBC451D40B42200682014 /* ZKJChatCell.m */; };
+		7BFDBC491D40B43700682014 /* ZKJMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFDBC481D40B43700682014 /* ZKJMessage.m */; };
+		7BFDBC4B1D40B67100682014 /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDBC4A1D40B67100682014 /* messages.plist */; };
+		7BFDBC4D1D40BE5900682014 /* ZKJChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFDBC4C1D40BE5900682014 /* ZKJChatCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B45D5CD1D4EE146007C3EE1 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		7B45D5CE1D4EE146007C3EE1 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		7B45D5CF1D4EE146007C3EE1 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		7B45D5D01D4EE146007C3EE1 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		7B45D5D11D4EE146007C3EE1 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		7B45D5D21D4EE146007C3EE1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		7B45D5D31D4EE146007C3EE1 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		7B45D5D41D4EE146007C3EE1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		7B45D5D51D4EE146007C3EE1 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		7B45D5D61D4EE146007C3EE1 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		7B45D5D71D4EE146007C3EE1 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		7B45D5D81D4EE146007C3EE1 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		7B45D5D91D4EE146007C3EE1 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		7B45D5DA1D4EE146007C3EE1 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		7B45D5DB1D4EE146007C3EE1 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		7B45D5DC1D4EE146007C3EE1 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		7B45D5DD1D4EE146007C3EE1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		7B45D5DE1D4EE146007C3EE1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7B45D5DF1D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7B45D5E01D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		7B45D5E11D4EE146007C3EE1 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		7B45D5E21D4EE146007C3EE1 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		7B45D5E31D4EE146007C3EE1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7B45D5ED1D4EE17A007C3EE1 /* ZkjChat.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZkjChat.pch; sourceTree = "<group>"; };
+		7BFDBC271D40B39C00682014 /* ZKJSmartChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKJSmartChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BFDBC2B1D40B39C00682014 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BFDBC2D1D40B39C00682014 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BFDBC2E1D40B39C00682014 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BFDBC341D40B39C00682014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BFDBC361D40B39C00682014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BFDBC391D40B39C00682014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BFDBC3B1D40B39C00682014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BFDBC411D40B3DF00682014 /* ZKJChatVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKJChatVC.h; sourceTree = "<group>"; };
+		7BFDBC421D40B3DF00682014 /* ZKJChatVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKJChatVC.m; sourceTree = "<group>"; };
+		7BFDBC441D40B42200682014 /* ZKJChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKJChatCell.h; sourceTree = "<group>"; };
+		7BFDBC451D40B42200682014 /* ZKJChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKJChatCell.m; sourceTree = "<group>"; };
+		7BFDBC471D40B43700682014 /* ZKJMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKJMessage.h; sourceTree = "<group>"; };
+		7BFDBC481D40B43700682014 /* ZKJMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKJMessage.m; sourceTree = "<group>"; };
+		7BFDBC4A1D40B67100682014 /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		7BFDBC4C1D40BE5900682014 /* ZKJChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKJChatCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BFDBC241D40B39C00682014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B45D5CC1D4EE146007C3EE1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7B45D5CD1D4EE146007C3EE1 /* MASCompositeConstraint.h */,
+				7B45D5CE1D4EE146007C3EE1 /* MASCompositeConstraint.m */,
+				7B45D5CF1D4EE146007C3EE1 /* MASConstraint+Private.h */,
+				7B45D5D01D4EE146007C3EE1 /* MASConstraint.h */,
+				7B45D5D11D4EE146007C3EE1 /* MASConstraint.m */,
+				7B45D5D21D4EE146007C3EE1 /* MASConstraintMaker.h */,
+				7B45D5D31D4EE146007C3EE1 /* MASConstraintMaker.m */,
+				7B45D5D41D4EE146007C3EE1 /* MASLayoutConstraint.h */,
+				7B45D5D51D4EE146007C3EE1 /* MASLayoutConstraint.m */,
+				7B45D5D61D4EE146007C3EE1 /* Masonry.h */,
+				7B45D5D71D4EE146007C3EE1 /* MASUtilities.h */,
+				7B45D5D81D4EE146007C3EE1 /* MASViewAttribute.h */,
+				7B45D5D91D4EE146007C3EE1 /* MASViewAttribute.m */,
+				7B45D5DA1D4EE146007C3EE1 /* MASViewConstraint.h */,
+				7B45D5DB1D4EE146007C3EE1 /* MASViewConstraint.m */,
+				7B45D5DC1D4EE146007C3EE1 /* NSArray+MASAdditions.h */,
+				7B45D5DD1D4EE146007C3EE1 /* NSArray+MASAdditions.m */,
+				7B45D5DE1D4EE146007C3EE1 /* NSArray+MASShorthandAdditions.h */,
+				7B45D5DF1D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				7B45D5E01D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				7B45D5E11D4EE146007C3EE1 /* View+MASAdditions.h */,
+				7B45D5E21D4EE146007C3EE1 /* View+MASAdditions.m */,
+				7B45D5E31D4EE146007C3EE1 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7BFDBC1E1D40B39C00682014 = {
+			isa = PBXGroup;
+			children = (
+				7BFDBC291D40B39C00682014 /* ZKJSmartChat */,
+				7BFDBC281D40B39C00682014 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BFDBC281D40B39C00682014 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDBC271D40B39C00682014 /* ZKJSmartChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BFDBC291D40B39C00682014 /* ZKJSmartChat */ = {
+			isa = PBXGroup;
+			children = (
+				7B45D5CC1D4EE146007C3EE1 /* Masonry */,
+				7BFDBC2D1D40B39C00682014 /* AppDelegate.h */,
+				7BFDBC2E1D40B39C00682014 /* AppDelegate.m */,
+				7BFDBC411D40B3DF00682014 /* ZKJChatVC.h */,
+				7BFDBC421D40B3DF00682014 /* ZKJChatVC.m */,
+				7BFDBC441D40B42200682014 /* ZKJChatCell.h */,
+				7BFDBC451D40B42200682014 /* ZKJChatCell.m */,
+				7BFDBC4C1D40BE5900682014 /* ZKJChatCell.xib */,
+				7BFDBC471D40B43700682014 /* ZKJMessage.h */,
+				7BFDBC481D40B43700682014 /* ZKJMessage.m */,
+				7BFDBC2A1D40B39C00682014 /* Supporting Files */,
+			);
+			path = ZKJSmartChat;
+			sourceTree = "<group>";
+		};
+		7BFDBC2A1D40B39C00682014 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BFDBC331D40B39C00682014 /* Main.storyboard */,
+				7BFDBC4A1D40B67100682014 /* messages.plist */,
+				7BFDBC361D40B39C00682014 /* Assets.xcassets */,
+				7BFDBC381D40B39C00682014 /* LaunchScreen.storyboard */,
+				7BFDBC3B1D40B39C00682014 /* Info.plist */,
+				7BFDBC2B1D40B39C00682014 /* main.m */,
+				7B45D5ED1D4EE17A007C3EE1 /* ZkjChat.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BFDBC261D40B39C00682014 /* ZKJSmartChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BFDBC3E1D40B39C00682014 /* Build configuration list for PBXNativeTarget "ZKJSmartChat" */;
+			buildPhases = (
+				7BFDBC231D40B39C00682014 /* Sources */,
+				7BFDBC241D40B39C00682014 /* Frameworks */,
+				7BFDBC251D40B39C00682014 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKJSmartChat;
+			productName = ZKJSmartChat;
+			productReference = 7BFDBC271D40B39C00682014 /* ZKJSmartChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BFDBC1F1D40B39C00682014 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZKJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZKJ;
+				TargetAttributes = {
+					7BFDBC261D40B39C00682014 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BFDBC221D40B39C00682014 /* Build configuration list for PBXProject "ZKJSmartChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BFDBC1E1D40B39C00682014;
+			productRefGroup = 7BFDBC281D40B39C00682014 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BFDBC261D40B39C00682014 /* ZKJSmartChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BFDBC251D40B39C00682014 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BFDBC4D1D40BE5900682014 /* ZKJChatCell.xib in Resources */,
+				7BFDBC4B1D40B67100682014 /* messages.plist in Resources */,
+				7BFDBC3A1D40B39C00682014 /* LaunchScreen.storyboard in Resources */,
+				7BFDBC371D40B39C00682014 /* Assets.xcassets in Resources */,
+				7BFDBC351D40B39C00682014 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BFDBC231D40B39C00682014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B45D5EB1D4EE146007C3EE1 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				7BFDBC2F1D40B39C00682014 /* AppDelegate.m in Sources */,
+				7B45D5E91D4EE146007C3EE1 /* MASViewConstraint.m in Sources */,
+				7BFDBC431D40B3DF00682014 /* ZKJChatVC.m in Sources */,
+				7BFDBC2C1D40B39C00682014 /* main.m in Sources */,
+				7BFDBC461D40B42200682014 /* ZKJChatCell.m in Sources */,
+				7B45D5EC1D4EE146007C3EE1 /* View+MASAdditions.m in Sources */,
+				7B45D5E41D4EE146007C3EE1 /* MASCompositeConstraint.m in Sources */,
+				7B45D5E81D4EE146007C3EE1 /* MASViewAttribute.m in Sources */,
+				7B45D5E61D4EE146007C3EE1 /* MASConstraintMaker.m in Sources */,
+				7B45D5EA1D4EE146007C3EE1 /* NSArray+MASAdditions.m in Sources */,
+				7B45D5E51D4EE146007C3EE1 /* MASConstraint.m in Sources */,
+				7B45D5E71D4EE146007C3EE1 /* MASLayoutConstraint.m in Sources */,
+				7BFDBC491D40B43700682014 /* ZKJMessage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BFDBC331D40B39C00682014 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFDBC341D40B39C00682014 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BFDBC381D40B39C00682014 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BFDBC391D40B39C00682014 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BFDBC3C1D40B39C00682014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BFDBC3D1D40B39C00682014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BFDBC3F1D40B39C00682014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZKJSmartChat/ZkjChat.pch;
+				INFOPLIST_FILE = ZKJSmartChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebankEnt23232;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+			};
+			name = Debug;
+		};
+		7BFDBC401D40B39C00682014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ZKJSmartChat/ZkjChat.pch;
+				INFOPLIST_FILE = ZKJSmartChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebankEnt23232;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ac5bebd2-1ad0-43e3-ae30-f364512b09ee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BFDBC221D40B39C00682014 /* Build configuration list for PBXProject "ZKJSmartChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFDBC3C1D40B39C00682014 /* Debug */,
+				7BFDBC3D1D40B39C00682014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BFDBC3E1D40B39C00682014 /* Build configuration list for PBXNativeTarget "ZKJSmartChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BFDBC3F1D40B39C00682014 /* Debug */,
+				7BFDBC401D40B39C00682014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BFDBC1F1D40B39C00682014 /* Project object */;
+}
