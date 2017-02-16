@@ -39,7 +39,6 @@
     [super viewDidLoad];
     UIView *view = [[UIView alloc] init];
     view.frame = CGRectMake(0, 0, 5, 0);
-//    view.backgroundColor = [UIColor redColor];
     self.messageTF.leftView = view;
     self.messageTF.leftViewMode = UITextFieldViewModeAlways;
     
